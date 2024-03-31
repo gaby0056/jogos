@@ -1,0 +1,110 @@
+/* estilo.css */
+
+/* Estilos gerais */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin:0;
+        padding:0;
+background-image: url(img/galaxia-og.webp);
+background-size: cover;
+background-position: center;
+    }
+    
+    header {
+        background-color: #64043f;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        padding-top: 0px;
+    }
+    
+    h2 {
+        margin: 0;
+      padding-top: 5px;
+
+      
+    }
+    
+    table {
+        width: 900px;
+        border-collapse: collapse;
+        margin: 0 auto;
+        background-color: black;
+        color: white;
+        
+       
+       
+        
+        
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 5px solid #d8c7c7;
+        font-family: 'Times New Roman', Times, serif
+        height: 100px;
+    }
+    
+    /* Estilos para cada jogo */
+    .jogo1 {
+        background-color: blue;
+        color: white;
+        width: 10px;
+        height:10px;
+        padding: 50px;
+        
+      
+
+    }
+    
+    .jogo2 {
+        background-color: black;
+        color: whitesmoke;
+    
+    }
+    
+    .jogo3 {
+        background-color: black;
+        color: whitesmoke;
+
+    }
+    
+    .jogo4 {
+        background-color: black;
+        color: whitesmoke;
+    } 
+    
+    .jogo5 {
+        background-color: red;
+        color: black;
+    }
+    
+    .jogo6 {
+        background-color: gold;
+        color: darkgreen;
+    }
+    
+    .jogo7 {
+        background-color: slategrey;
+        color: red;
+    }
+    
+    .jogo8 {
+        background-color: darkgreen;
+        color: silver;
+    }
+    
+    .jogo9 {
+        background-color: orangered;
+        color: gold;
+    }
+    
+    .jogo10 {
+        background-color: purple;
+        color: greenyellow;
+    }
+    
+    /* Estilos de hover para destacar as células quando o mouse passa sobre elas */
+    tr[class^="jogo"] td:hover {
+        background-color: #FFFF00; /* Altere para a cor desejada quando o mouse passar sobre as células
